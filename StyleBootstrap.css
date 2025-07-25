@@ -1,0 +1,29 @@
+.banner{
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+}
+.banner img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.border-down{
+    border-bottom: 1px solid #ccc;
+}
+
+.fonte{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.categoria{
+    padding-left: 270px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.object-cover {
+  object-fit: cover;
+  height: 100%;
+}
