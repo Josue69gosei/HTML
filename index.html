@@ -58,26 +58,38 @@
     <div class="banner">
         <img class="img-fluid" src="img/main.jpg">
     </div>
-    <div class="container text-center">
-        <div class="row justify-content-center">
-            <div class="text-center py-3 ">
-                <h1 class="fonte">Product Categories</h1>
-            </div>
-            <div class="col-12 col-md-4 mb-4">
-                <img src="img/category1.jpg " alt="Office">
-                <h5>Office</h5>
-            </div>
-            <div class="col-12 col-md-4 mb-4">
-                <img src="img/category2.jpg" alt="Home">
-                <h5>Home</h5>
-            </div>
-            <div class="col-12 col-md-4 mb-4">
-                <img src="img/category3.jpg" alt="Kitchen">
-                <h5>Kitchen</h5>
+
+        <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Product Categories</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img\category1.jpg" class="card-img-top" >
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Office</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img\category2.jpg" class="card-img-top" >
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Home</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img\category3.jpg" class="card-img-top" >
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Kitchen</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
+    </section>
 
     <section class="about-us-section">
         <div class="container-fluid">
@@ -91,8 +103,7 @@
                 <div class="col-12 col-md-6 d-flex align-items-center bg-primary text-white p-5">
                     <div>
                         <h2>About <span class="text-white">Us</span></h2>
-                        <p>Nulla eget nibh ut ante lacinia ultricies. Morbi scelerisque tellus lorem, et interdum libero
-                            dictum mattis. Suspendisse non ipsum sed risus aliquet feugiat a id neque.</p>
+                        <p>Vendemos móveis, compre nossos móveis, compre-os, compre.</p>
                         <p>Vivamus vitae sem convallis, aliquet lectus ac, tincidunt purus. Integer malesuada placerat
                             ex, at amet consectetur metus sei la, sei la.</p>
                     </div>
@@ -114,7 +125,7 @@
                     <div class="col-md-10">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="img/product1.jpg" class="img-fluid" alt="Product 1">
+                                <img src="img/product1.jpg" class="img-fluid">
                             </div>
                             <div class="col-md-6 d-flex flex-column justify-content-center bg-primary text-white p-4">
                                 <h5>Product 1</h5>
@@ -129,7 +140,7 @@
                 <div class="row mb-4">
                     <div class="col-md-6">
                         <div class="card h-100 border-0">
-                            <img src="img/product2.jpg" class="card-img-top" alt="Product 2">
+                            <img src="img/product2.jpg" class="card-img-top">
                             <div class="bg-primary text-white p-3 d-flex flex-column justify-content-between h-100">
                                 <h5>Product 2</h5>
                                 <p>Design acolhedor para ambientes menores.</p>
@@ -140,7 +151,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="card h-100 border-0">
-                            <img src="img/product3.jpg" class="card-img-top" alt="Product 3">
+                            <img src="img/product3.jpg" class="card-img-top">
                             <div class="bg-primary text-white p-3 d-flex flex-column justify-content-between h-100">
                                 <h5>Product 3</h5>
                                 <p>Sofá espaçoso com conforto premium.</p>
@@ -155,7 +166,7 @@
                 <div class="row">
                     <div class="col-md-4 mb-4">
                         <div class="card h-100 border-0">
-                            <img src="img/product4.jpg" class="card-img-top" alt="Product 4">
+                            <img src="img/product4.jpg" class="card-img-top">
                             <div class="bg-primary text-white p-3 d-flex flex-column justify-content-between h-100">
                                 <h5>Product 4</h5>
                                 <p>Conjunto elegante para seu quarto.</p>
@@ -166,7 +177,7 @@
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="card h-100 border-0">
-                            <img src="img/product5.jpg" class="card-img-top" alt="Product 5">
+                            <img src="img/product5.jpg" class="card-img-top">
                             <div class="bg-primary text-white p-3 d-flex flex-column justify-content-between h-100">
                                 <h5>Product 5</h5>
                                 <p>Mesa lateral com acabamento sofisticado.</p>
@@ -177,7 +188,7 @@
                     </div>
                     <div class="col-md-4 mb-4">
                         <div class="card h-100 border-0">
-                            <img src="img/product6.jpg" class="card-img-top" alt="Product 6">
+                            <img src="img/product6.jpg" class="card-img-top">
                             <div class="bg-primary text-white p-3 d-flex flex-column justify-content-between h-100">
                                 <h5>Product 6</h5>
                                 <p>Perfeito para home office ou estudos.</p>
@@ -197,12 +208,14 @@
 
                 <div class="col-md-4">
                     <h5 class="fw-bold">Categories</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#" class=" text-dark">Kitchen</a></li>
-                        <li><a href="#" class="text-decoration-none text-dark">Office</a></li>
-                        <li><a href="#" class="text-decoration-none text-dark">Garden</a></li>
-                        <li><a href="#" class="text-decoration-none text-dark">Garage</a></li>
-                        <li><a href="#" class="text-decoration-none text-dark">Bedroom</a></li>
+                    <ul class="list-unstyled ">
+                        
+                        <li><a href="#" class="text-decoration-none links">Kitchen</a></li>
+                        <li><a href="#" class="text-decoration-none links">Office</a></li>
+                        <li><a href="#" class="text-decoration-none links">Garden</a></li>
+                        <li><a href="#" class="text-decoration-none links">Garage</a></li>
+                        <li><a href="#" class="text-decoration-none links">Bedroom</a></li>
+                        
                     </ul>
                 </div>
 
@@ -210,11 +223,11 @@
                 <div class="col-md-4">
                     <h5 class="fw-bold">About Us</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-decoration-none text-dark">Our History</a></li>
-                        <li><a href="#" class="text-decoration-none text-dark">Mission, Vision & Values</a></li>
-                        <li><a href="#" class="text-decoration-none text-dark">Careers</a></li>
-                        <li><a href="#" class="text-decoration-none text-dark">Privacy Policy</a></li>
-                        <li><a href="#" class="text-decoration-none text-dark">Terms of Service</a></li>
+                        <li><a href="#" class="text-decoration-none links">Our History</a></li>
+                        <li><a href="#" class="text-decoration-none links">Mission, Vision & Values</a></li>
+                        <li><a href="#" class="text-decoration-none links">Careers</a></li>
+                        <li><a href="#" class="text-decoration-none links">Privacy Policy</a></li>
+                        <li><a href="#" class="text-decoration-none links">Terms of Service</a></li>
                     </ul>
                 </div>
 
@@ -222,9 +235,9 @@
                 <div class="col-md-4">
                     <h5 class="fw-bold">Support</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-decoration-none text-dark">FAQ</a></li>
-                        <li><a href="#" class="text-decoration-none text-dark">Online help</a></li>
-                        <li><a href="#" class="text-decoration-none text-dark">Trust & Security</a></li>
+                        <li><a href="#" class="text-decoration-none links">FAQ</a></li>
+                        <li><a href="#" class="text-decoration-none links">Online help</a></li>
+                        <li><a href="#" class="text-decoration-none links">Trust & Security</a></li>
                     </ul>
                 </div>
             </div>
